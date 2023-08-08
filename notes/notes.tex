@@ -1,0 +1,1289 @@
+\documentclass[a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage[pdftex,breaklinks,colorlinks,linkcolor=blue]{hyperref}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\begin{document}
+
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+
+\center
+ 
+
+\textsc{\LARGE Indian Institute of Technology}\\[1.5cm]
+\textsc{\Large (Banaras Hindu University)}\\[0.5cm] 
+\textsc{\large Varanasi, Uttar Pradesh, India 221005}\\[0.5cm] 
+
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Distinguishing Integrable and Non-Integrable systems using quantum quenches}\\[0.4cm] 
+\HRule \\[1.5cm]
+
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+ Abhishek Raj\textsc{}
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+Dr. Rajeev Singh
+\end{flushright}
+\end{minipage}\\[2cm]
+
+{\today}\\[2cm]
+
+\includegraphics[width=0.3\textwidth]{logo.png}\\[1cm] 
+\vfill
+
+\end{titlepage}
+
+
+\tableofcontents
+\newpage
+\listoffigures
+
+\newpage
+\section{TFIM}
+\subsection{$\langle m_z \rangle$ vs h}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\linewidth]{../plots/mz_h}
+  \caption{$N=6, J=1$.}
+\end{figure}
+
+\subsection{$\langle m_z \rangle$ vs t}
+\begin{figure}[h]
+  \begin{subfigure}{.6\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{../plots/mz_t}
+    \caption{t = 10sec.}
+  \end{subfigure}
+  \begin{subfigure}{.6\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{../plots/mz_t100}
+    \caption{t = 100sec.}
+  \end{subfigure}
+  \caption{$N=8, J=1, h=1$.}
+  \label{fig:}
+\end{figure}
+
+\newpage
+\subsection{von Neuman entropy vs t}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\linewidth]{../plots/entropy}
+  \caption{$N=8, J=1, h=1$.}
+\end{figure}
+
+\subsection{Time evolution of $\langle m_z \rangle$, S, $\langle s_c \rangle$, and $l$ with quench at $\tau=100$}
+\subsubsection{Single run}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{../plots/tfim}
+  \caption{$N = 8, J = 1, h = 1, \delta h = 0.1$ with disorder parameter $h_v$ varying from $[-1,1]$.}
+  \label{fig:TFIM}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\linewidth]{../plots/simple_quench/tfim}
+  \caption{$N = 8, J = 1, h = 1, \delta h = 0.1$ without disorder.}
+  \label{fig:TFIM}
+\end{figure}
+
+\newpage
+\subsubsection{Averaged over several runs}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.75\linewidth]{../plots/tfim_sample}
+  \caption{$N = 8, J = 1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-1,1]$.}
+  \label{fig:TFIM}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\linewidth]{../plots/tfim_hv01}
+  \caption{$N = 8, J = 1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\newpage
+\section{ANNNI}
+\subsection{Time evolution of $\langle m_z \rangle$, S, $\langle s_c \rangle$, and $l$ with quench at $\tau=100$}
+\subsubsection{Single run}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{../plots/time_evol_annni}
+  \caption{$N=8, J=1, J'=0.1, h=1, \delta h=0.1$ with disorder parameter $h_v$ varying from $[-1,1]$.}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/simple_quench/annni_01}
+  \caption{$N = 8, J = 1, J'=0.1, h = 1, \delta h = 0.1$ without disorder.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/simple_quench/annni_05}
+  \caption{$N = 8, J = 1, J'=0.5, h = 1, \delta h = 0.1$ without disorder.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{../plots/simple_quench/annni_1}
+  \caption{$N = 8, J = 1, J'=1, h = 1, \delta h = 0.1$ without disorder.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_N10_J01_single}
+  \caption{$N = 10, J = 1, J'=0.1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ and sampling points 3000.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_N10_J05_single}
+  \caption{$N = 10, J = 1, J'=0.5, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ and sampling points 3000.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_N10_J1_single}
+  \caption{$N = 10, J = 1, J'=1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ and sampling points 3000.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.98\linewidth]{../plots/annni_N10_J01_hv0}
+  \caption{$N = 10, J = 1, J'=0.1, h = 1, \delta h = 0.1$ without disorder.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.98\linewidth]{../plots/annni_N10_J05_hv0}
+  \caption{$N = 10, J = 1, J'=0.5, h = 1, \delta h = 0.1$ without disorder.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_N10_J1_hv0}
+  \caption{$N = 10, J = 1, J'=1, h = 1, \delta h = 0.1$ without disorder.}
+  \label{fig:}
+\end{figure}
+
+\newpage
+\subsubsection{Averaged over several runs}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.8\linewidth]{../plots/annni_sample_J01}
+  \caption{$N = 8, J = 1,  J'=0.1, h = 1, \delta h = 0.1$ with disorder parameter $h_v$ varying from $[-1,1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_sample}
+  \caption{$N = 8, J = 1,  J'=0.5, h = 1, \delta h = 0.1$ with disorder parameter $h_v$ varying from $[-1,1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_sample_J1}
+  \caption{$N = 8, J = 1,  J'= 1, h = 1, \delta h = 0.1$ with disorder parameter $h_v$ varying from $[-1,1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../plots/annni_hv01_J01}
+  \caption{$N = 8, J = 1, J'=0.1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../plots/annni_hv01_J05}
+  \caption{$N = 8, J = 1, J'=0.5, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_hv01_J1}
+  \caption{$N = 8, J = 1, J'=1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_3000_J01}
+  \caption{$N = 8, J = 1, J'=0.1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ and sampling points 3000.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_1000_J01}
+  \caption{$N = 8, J = 1, J'=0.1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$  over 1000 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_N10_J01}
+  \caption{$N = 10, J = 1, J'=0.1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_N10_J05}
+  \caption{$N = 10, J = 1, J'=0.5, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_N10_J1}
+  \caption{$N = 10, J = 1, J'=1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_N10_J01_hv01_1000}
+  \caption{$N = 10, J = 1, J'=0.1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 1000 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_dh001_N10_J01_eff}
+  \caption{$N = 10, J = 1, J'=0.1, h = 1, \delta h = 0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_dh001_N10_J05_eff}
+  \caption{$N = 10, J = 1, J'=0.5, h = 1, \delta h = 0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/annni_dh001_N10_J1_eff}
+  \caption{$N = 10, J = 1, J'=1, h = 1, \delta h = 0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$.}
+  \label{fig:}
+\end{figure}
+
+\subsection{$S_{min}$ vs $J'$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.85\linewidth]{../plots/S_min_vs_Jp_3points_3plots_scatter}
+  \caption{$N = 10, J = 1, h = 1, \tau=100$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\subsection{$\langle m_z \rangle_{max}$ vs $J'$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.85\linewidth]{../plots/mz_max_vs_Jp_3points_3plots_scatter}
+  \caption{$N = 10, J = 1, h = 1, \tau=100$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\subsection{$S_{min}$ vs $\tau$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/S_min_vs_tau_N8_Jp_all_NGrid_log}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/S_min_vs_tau_N10_Jp_all_NGrid_log}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_min_vs_tau_hv1_N8_Jp_all_NGrid_log}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_min_vs_tau_hv1_N10_Jp_all_NGrid_log}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.94\linewidth]{../plots/S_min_vs_tau_hv1_dh001_N8_Jp_all_NGrid}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.94\linewidth]{../plots/S_min_vs_tau_hv1_dh001_N10_Jp_all_NGrid}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.94\linewidth]{../plots/S_min_vs_tau_hv01_dh001_N8_Jp_all_NGrid}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.94\linewidth]{../plots/S_min_vs_tau_hv01_dh001_N10_Jp_all_NGrid}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_N8_Jp_all_window}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations. $S_{max}$ also calculated in window.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_N10_Jp_all_window}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations. $S_{max}$ also calculated in window.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_N8_Jp_all_NGrid}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_N10_Jp_all_NGrid}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_hv1_N8_Jp_all_NGrid}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_hv1_N10_Jp_all_NGrid}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_hv1_dh001_N8_Jp_all_NGrid}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_hv1_dh001_N10_Jp_all_NGrid}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_hv01_dh001_N8_Jp_all_NGrid}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.95\linewidth]{../plots/S_minbymaxdif_vs_tau_hv01_dh001_N10_Jp_all_NGrid}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.0\linewidth]{../plots/new/dh01/hv01/annni_hv01_dh01_N10_s_min_tau}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.0\linewidth]{../plots/new/dh01/hv1/annni_hv1_dh01_N10_s_min_tau}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations.}
+  \label{fig:}
+\end{figure}
+
+\clearpage
+\subsection{$S_{min}$ vs $\tau$ vs $J'$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_1}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min_obc}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, FBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax_obc}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, FBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_obc}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, FBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_min}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_minbymax}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_one_min_s_minbymax}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-1,1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_min}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_minbymax}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_one_min_s_minbymax}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_min}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_minbymax}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_one_min_s_minbymax}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_min}
+  \caption{$N = 6, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_minbymax}
+  \caption{$N = 6, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.97\linewidth]{../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_one_min_s_minbymax}
+  \caption{$N = 6, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+
+
+\clearpage
+\subsection{$\tau$ at $(1-\frac{S_{min}}{S_{max}})/2$ vs $J'$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.1\linewidth]{../plots/new/tau_at_half_Jp_imp}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.1\linewidth]{../plots/new/tau_at_half_Jp}
+  \caption{$N = 10, J = 1, h = 1$ with disorder over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+
+\clearpage
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.1\linewidth]{../plots/new/tau_at_half_Jp_imp1}
+  \caption{$J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.1\linewidth]{../plots/new/tau_at_07_Jp}
+  \caption{$J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC. $0.7$ times the initial value}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.1\linewidth]{../plots/new/tau_at_half_Jp_all}
+  \caption{$J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 realizations, PBC.}
+  \label{fig:}
+\end{figure}
+
+\clearpage
+\subsection{$S_{min}$ vs $\tau$ vs $J'$ avereged over intial eigenstates}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_min_ran_int_st}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$  over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_minbymax_ran_int_st}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_one_min_s_minbymax_ran_int_st}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_min_ran_int_st}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$  over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_minbymax_ran_int_st}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_one_min_s_minbymax_ran_int_st}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_std_ran_int_st}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_std_ran_int_st}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.01$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\clearpage
+\subsection{Standard deviation vs time}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh01/std/std_t}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh01/std/std_t_hv}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\clearpage
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh01/std/std_t_jp01}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ran_int_st/dh01/std/std_t_jp01_hv}
+  \caption{$N = 10, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 100 initial random state, PBC.}
+  \label{fig:}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\clearpage
+\subsection{Mean and Standard deviation of mean around 2$\tau$ vs $t$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+
+
+
+
+\clearpage
+\subsection{Standard deviation of mean at 2$\tau$ vs $\tau$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+
+\clearpage
+\subsection{Energy resolved analysis}
+\subsubsection{Initial energy vs $\delta$E}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+
+\clearpage
+\subsubsection{Initial energy vs samples}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+
+\clearpage
+\subsubsection{$S_{min}$ vs $\delta$E}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j01}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j026}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j051}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j1}
+  \caption{$N = 8, J = 1, h = 1, \delta h=0.1$ with disorder $h_v$ varying from $[-0.1,0.1]$ over 256 sample states.}
+  \label{fig:}
+\end{figure}
+
+
+\clearpage
+\section{XXZ}
+\subsection{Time evolution of $\langle m_z \rangle$, S, $\langle s_c \rangle$, and $l$ with quench at $\tau=100$}
+\subsubsection{Single run}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/xxz_v}
+  \caption{$N=8, J=1, \Delta=1, h=1, \delta h=0.1$ with disorder parameter $h_v$ varying from $[-1,1]$.}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/simple_quench/xxz}
+  \caption{$N = 8, J = 1, \Delta = 1, h = 1, \delta h = 0.1$ without disorder.}
+\end{figure}
+
+\newpage
+\subsubsection{Averaged over several runs}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/xxz_sample}
+  \caption{$N = 8, J = 1, \Delta = 1, h = 1, \delta h = 0.1$ with disorder $h_v$ varying from $[-1,1]$.}
+  \label{fig:}
+\end{figure}
+
+
+
+\clearpage
+\subsection{Energy resolved analysis}
+\subsubsection{Initial energy vs $\delta$E}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv1_dd01_N10_del_e_in_ene_seed60}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-1,1]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv10_dd01_N10_del_e_in_ene_seed40}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-10,10]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+\clearpage
+\subsubsection{Initial energy vs samples}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv1_dd01_N10_in_ene_samples_seed60}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-1,1]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv10_dd01_N10_in_ene_samples_seed40}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-10,10]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+
+\clearpage
+\subsubsection{$S_{min}/S_{max}$ vs $\delta$E}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_del_e_seed60}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-1,1]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_del_e_seed40}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-10,10]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+\clearpage
+\subsection{$S$ $\delta S$ vs $t$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv1_dd01_N10_del_s_s_t_seed60}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-1,1]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv10_dd01_N10_del_s_s_t_seed40}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-10,10]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+
+\clearpage
+\subsection{$S_{min}/S_{max}$ vs $\tau$}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_tau_seed60}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-1,1]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.9\linewidth]{../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_tau_seed40}
+  \caption{$N = 10, J = 1, \delta = 1, d \delta =0.1$ with disorder $h_v$ varying from $[-10,10]$ over 600 disorder realization.}
+  \label{fig:}
+\end{figure}
+
+
+\end{document}
+

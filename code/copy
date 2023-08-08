@@ -1,0 +1,618 @@
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.0_tau.pickle', 'rb') as data:
+	temp=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.025641025641_tau.pickle', 'rb') as data:
+	temp1=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.0512820512821_tau.pickle', 'rb') as data:
+	temp2=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.0769230769231_tau.pickle', 'rb') as data:
+	temp3=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.102564102564_tau.pickle', 'rb') as data:
+	temp4=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.128205128205_tau.pickle', 'rb') as data1:
+	temp5=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.153846153846_tau.pickle', 'rb') as data2:
+	temp6=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.179487179487_tau.pickle', 'rb') as data1:
+	temp7=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.205128205128_tau.pickle', 'rb') as data2:
+	temp8=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.230769230769_tau.pickle', 'rb') as data1:
+	temp9=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.25641025641_tau.pickle', 'rb') as data2:
+	temp10=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.282051282051_tau.pickle', 'rb') as data1:
+	temp11=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.307692307692_tau.pickle', 'rb') as data2:
+	temp12=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.333333333333_tau.pickle', 'rb') as data1:
+	temp13=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.358974358974_tau.pickle', 'rb') as data2:
+	temp14=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.384615384615_tau.pickle', 'rb') as data1:
+	temp15=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.410256410256_tau.pickle', 'rb') as data2:
+	temp16=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.435897435897_tau.pickle', 'rb') as data1:
+	temp17=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.461538461538_tau.pickle', 'rb') as data2:
+	temp18=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.487179487179_tau.pickle', 'rb') as data1:
+	temp19=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.512820512821_tau.pickle', 'rb') as data2:
+	temp20=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.538461538462_tau.pickle', 'rb') as data2:
+	temp21=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.564102564103_tau.pickle', 'rb') as data2:
+	temp22=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.589743589744_tau.pickle', 'rb') as data1:
+	temp23=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.615384615385_tau.pickle', 'rb') as data2:
+	temp24=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.641025641026_tau.pickle', 'rb') as data1:
+	temp25=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.666666666667_tau.pickle', 'rb') as data2:
+	temp26=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.692307692308_tau.pickle', 'rb') as data1:
+	temp27=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.717948717949_tau.pickle', 'rb') as data2:
+	temp28=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.74358974359_tau.pickle', 'rb') as data2:
+	temp29=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.769230769231_tau.pickle', 'rb') as data1:
+	temp30=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.794871794872_tau.pickle', 'rb') as data2:
+	temp31=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.820512820513_tau.pickle', 'rb') as data1:
+	temp32=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.846153846154_tau.pickle', 'rb') as data2:
+	temp33=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.871794871795_tau.pickle', 'rb') as data1:
+	temp34=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.897435897436_tau.pickle', 'rb') as data2:
+	temp35=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.923076923077_tau.pickle', 'rb') as data1:
+	temp36=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.948717948718_tau.pickle', 'rb') as data2:
+	temp37=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J0.974358974359_tau.pickle', 'rb') as data1:
+	temp38=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv01/pbc/annni_hv01_N10_J1.0_tau.pickle', 'rb') as data3:
+	temp39=pickle.load(data3)
+
+
+
+#############################################
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.0_tau.pickle', 'rb') as data:
+	temp=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.025641025641_tau.pickle', 'rb') as data:
+	temp1=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.0512820512821_tau.pickle', 'rb') as data:
+	temp2=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.0769230769231_tau.pickle', 'rb') as data:
+	temp3=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.102564102564_tau.pickle', 'rb') as data:
+	temp4=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.128205128205_tau.pickle', 'rb') as data1:
+	temp5=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.153846153846_tau.pickle', 'rb') as data2:
+	temp6=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.179487179487_tau.pickle', 'rb') as data1:
+	temp7=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.205128205128_tau.pickle', 'rb') as data2:
+	temp8=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.230769230769_tau.pickle', 'rb') as data1:
+	temp9=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.25641025641_tau.pickle', 'rb') as data2:
+	temp10=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.282051282051_tau.pickle', 'rb') as data1:
+	temp11=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.307692307692_tau.pickle', 'rb') as data2:
+	temp12=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.333333333333_tau.pickle', 'rb') as data1:
+	temp13=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.358974358974_tau.pickle', 'rb') as data2:
+	temp14=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.384615384615_tau.pickle', 'rb') as data1:
+	temp15=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.410256410256_tau.pickle', 'rb') as data2:
+	temp16=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.435897435897_tau.pickle', 'rb') as data1:
+	temp17=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.461538461538_tau.pickle', 'rb') as data2:
+	temp18=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.487179487179_tau.pickle', 'rb') as data1:
+	temp19=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.512820512821_tau.pickle', 'rb') as data2:
+	temp20=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.538461538462_tau.pickle', 'rb') as data2:
+	temp21=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.564102564103_tau.pickle', 'rb') as data2:
+	temp22=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.589743589744_tau.pickle', 'rb') as data1:
+	temp23=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.615384615385_tau.pickle', 'rb') as data2:
+	temp24=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.641025641026_tau.pickle', 'rb') as data1:
+	temp25=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.666666666667_tau.pickle', 'rb') as data2:
+	temp26=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.692307692308_tau.pickle', 'rb') as data1:
+	temp27=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.717948717949_tau.pickle', 'rb') as data2:
+	temp28=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.74358974359_tau.pickle', 'rb') as data2:
+	temp29=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.769230769231_tau.pickle', 'rb') as data1:
+	temp30=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.794871794872_tau.pickle', 'rb') as data2:
+	temp31=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.820512820513_tau.pickle', 'rb') as data1:
+	temp32=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.846153846154_tau.pickle', 'rb') as data2:
+	temp33=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.871794871795_tau.pickle', 'rb') as data1:
+	temp34=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.897435897436_tau.pickle', 'rb') as data2:
+	temp35=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.923076923077_tau.pickle', 'rb') as data1:
+	temp36=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.948717948718_tau.pickle', 'rb') as data2:
+	temp37=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J0.974358974359_tau.pickle', 'rb') as data1:
+	temp38=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/hv1/pbc/annni_hv1_N10_J1.0_tau.pickle', 'rb') as data3:
+	temp39=pickle.load(data3)
+
+
+
+#################################################
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.0_tau.pickle', 'rb') as data:
+	temp=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.025641025641_tau.pickle', 'rb') as data:
+	temp1=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.0512820512821_tau.pickle', 'rb') as data:
+	temp2=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.0769230769231_tau.pickle', 'rb') as data:
+	temp3=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.102564102564_tau.pickle', 'rb') as data:
+	temp4=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.128205128205_tau.pickle', 'rb') as data1:
+	temp5=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.153846153846_tau.pickle', 'rb') as data2:
+	temp6=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.179487179487_tau.pickle', 'rb') as data1:
+	temp7=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.205128205128_tau.pickle', 'rb') as data2:
+	temp8=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.230769230769_tau.pickle', 'rb') as data1:
+	temp9=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.25641025641_tau.pickle', 'rb') as data2:
+	temp10=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.282051282051_tau.pickle', 'rb') as data1:
+	temp11=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.307692307692_tau.pickle', 'rb') as data2:
+	temp12=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.333333333333_tau.pickle', 'rb') as data1:
+	temp13=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.358974358974_tau.pickle', 'rb') as data2:
+	temp14=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.384615384615_tau.pickle', 'rb') as data1:
+	temp15=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.410256410256_tau.pickle', 'rb') as data2:
+	temp16=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.435897435897_tau.pickle', 'rb') as data1:
+	temp17=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.461538461538_tau.pickle', 'rb') as data2:
+	temp18=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.487179487179_tau.pickle', 'rb') as data1:
+	temp19=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.512820512821_tau.pickle', 'rb') as data2:
+	temp20=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.538461538462_tau.pickle', 'rb') as data2:
+	temp21=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.564102564103_tau.pickle', 'rb') as data2:
+	temp22=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.589743589744_tau.pickle', 'rb') as data1:
+	temp23=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.615384615385_tau.pickle', 'rb') as data2:
+	temp24=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.641025641026_tau.pickle', 'rb') as data1:
+	temp25=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.666666666667_tau.pickle', 'rb') as data2:
+	temp26=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.692307692308_tau.pickle', 'rb') as data1:
+	temp27=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.717948717949_tau.pickle', 'rb') as data2:
+	temp28=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.74358974359_tau.pickle', 'rb') as data2:
+	temp29=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.769230769231_tau.pickle', 'rb') as data1:
+	temp30=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.794871794872_tau.pickle', 'rb') as data2:
+	temp31=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.820512820513_tau.pickle', 'rb') as data1:
+	temp32=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.846153846154_tau.pickle', 'rb') as data2:
+	temp33=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.871794871795_tau.pickle', 'rb') as data1:
+	temp34=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.897435897436_tau.pickle', 'rb') as data2:
+	temp35=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.923076923077_tau.pickle', 'rb') as data1:
+	temp36=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.948717948718_tau.pickle', 'rb') as data2:
+	temp37=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J0.974358974359_tau.pickle', 'rb') as data1:
+	temp38=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/dh001/hv01/pbc/annni_hv01_dh001_N10_J1.0_tau.pickle', 'rb') as data3:
+	temp39=pickle.load(data3)
+
+#################################################
+
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.0_tau.pickle', 'rb') as data:
+	temp=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.025641025641_tau.pickle', 'rb') as data:
+	temp1=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.0512820512821_tau.pickle', 'rb') as data:
+	temp2=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.0769230769231_tau.pickle', 'rb') as data:
+	temp3=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.102564102564_tau.pickle', 'rb') as data:
+	temp4=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.128205128205_tau.pickle', 'rb') as data1:
+	temp5=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.153846153846_tau.pickle', 'rb') as data2:
+	temp6=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.179487179487_tau.pickle', 'rb') as data1:
+	temp7=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.205128205128_tau.pickle', 'rb') as data2:
+	temp8=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.230769230769_tau.pickle', 'rb') as data1:
+	temp9=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.25641025641_tau.pickle', 'rb') as data2:
+	temp10=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.282051282051_tau.pickle', 'rb') as data1:
+	temp11=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.307692307692_tau.pickle', 'rb') as data2:
+	temp12=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.333333333333_tau.pickle', 'rb') as data1:
+	temp13=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.358974358974_tau.pickle', 'rb') as data2:
+	temp14=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.384615384615_tau.pickle', 'rb') as data1:
+	temp15=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.410256410256_tau.pickle', 'rb') as data2:
+	temp16=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.435897435897_tau.pickle', 'rb') as data1:
+	temp17=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.461538461538_tau.pickle', 'rb') as data2:
+	temp18=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.487179487179_tau.pickle', 'rb') as data1:
+	temp19=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.512820512821_tau.pickle', 'rb') as data2:
+	temp20=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.538461538462_tau.pickle', 'rb') as data2:
+	temp21=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.564102564103_tau.pickle', 'rb') as data2:
+	temp22=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.589743589744_tau.pickle', 'rb') as data1:
+	temp23=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.615384615385_tau.pickle', 'rb') as data2:
+	temp24=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.641025641026_tau.pickle', 'rb') as data1:
+	temp25=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.666666666667_tau.pickle', 'rb') as data2:
+	temp26=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.692307692308_tau.pickle', 'rb') as data1:
+	temp27=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.717948717949_tau.pickle', 'rb') as data2:
+	temp28=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.74358974359_tau.pickle', 'rb') as data2:
+	temp29=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.769230769231_tau.pickle', 'rb') as data1:
+	temp30=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.794871794872_tau.pickle', 'rb') as data2:
+	temp31=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.820512820513_tau.pickle', 'rb') as data1:
+	temp32=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.846153846154_tau.pickle', 'rb') as data2:
+	temp33=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.871794871795_tau.pickle', 'rb') as data1:
+	temp34=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.897435897436_tau.pickle', 'rb') as data2:
+	temp35=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.923076923077_tau.pickle', 'rb') as data1:
+	temp36=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.948717948718_tau.pickle', 'rb') as data2:
+	temp37=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J0.974358974359_tau.pickle', 'rb') as data1:
+	temp38=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/rand_int_st/dh01/annni_dh01_ran_inst_N10_J1.0_tau.pickle', 'rb') as data3:
+	temp39=pickle.load(data3)
+
+##################################################
+
+#################################################
+
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.0_tau.pickle', 'rb') as data:
+	temp=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.025641025641_tau.pickle', 'rb') as data:
+	temp1=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.0512820512821_tau.pickle', 'rb') as data:
+	temp2=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.0769230769231_tau.pickle', 'rb') as data:
+	temp3=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.102564102564_tau.pickle', 'rb') as data:
+	temp4=pickle.load(data)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.128205128205_tau.pickle', 'rb') as data1:
+	temp5=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.153846153846_tau.pickle', 'rb') as data2:
+	temp6=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.179487179487_tau.pickle', 'rb') as data1:
+	temp7=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.205128205128_tau.pickle', 'rb') as data2:
+	temp8=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.230769230769_tau.pickle', 'rb') as data1:
+	temp9=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.25641025641_tau.pickle', 'rb') as data2:
+	temp10=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.282051282051_tau.pickle', 'rb') as data1:
+	temp11=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.307692307692_tau.pickle', 'rb') as data2:
+	temp12=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.333333333333_tau.pickle', 'rb') as data1:
+	temp13=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.358974358974_tau.pickle', 'rb') as data2:
+	temp14=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.384615384615_tau.pickle', 'rb') as data1:
+	temp15=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.410256410256_tau.pickle', 'rb') as data2:
+	temp16=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.435897435897_tau.pickle', 'rb') as data1:
+	temp17=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.461538461538_tau.pickle', 'rb') as data2:
+	temp18=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.487179487179_tau.pickle', 'rb') as data1:
+	temp19=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.512820512821_tau.pickle', 'rb') as data2:
+	temp20=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.538461538462_tau.pickle', 'rb') as data2:
+	temp21=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.564102564103_tau.pickle', 'rb') as data2:
+	temp22=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.589743589744_tau.pickle', 'rb') as data1:
+	temp23=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.615384615385_tau.pickle', 'rb') as data2:
+	temp24=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.641025641026_tau.pickle', 'rb') as data1:
+	temp25=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.666666666667_tau.pickle', 'rb') as data2:
+	temp26=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.692307692308_tau.pickle', 'rb') as data1:
+	temp27=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.717948717949_tau.pickle', 'rb') as data2:
+	temp28=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.74358974359_tau.pickle', 'rb') as data2:
+	temp29=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.769230769231_tau.pickle', 'rb') as data1:
+	temp30=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.794871794872_tau.pickle', 'rb') as data2:
+	temp31=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.820512820513_tau.pickle', 'rb') as data1:
+	temp32=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.846153846154_tau.pickle', 'rb') as data2:
+	temp33=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.871794871795_tau.pickle', 'rb') as data1:
+	temp34=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.897435897436_tau.pickle', 'rb') as data2:
+	temp35=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.923076923077_tau.pickle', 'rb') as data1:
+	temp36=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.948717948718_tau.pickle', 'rb') as data2:
+	temp37=pickle.load(data2)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J0.974358974359_tau.pickle', 'rb') as data1:
+	temp38=pickle.load(data1)
+
+with open('/home/abhishek/Documents/project/data/new/N6/dh01/annni_hv01_N6_J1.0_tau.pickle', 'rb') as data3:
+	temp39=pickle.load(data3)
+
+##################################################

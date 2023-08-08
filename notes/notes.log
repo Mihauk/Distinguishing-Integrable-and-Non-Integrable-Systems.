@@ -1,0 +1,4289 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.18)  12 FEB 2018 14:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**notes.tex
+(./notes.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count88
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen104
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks20
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks21
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count102
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen115
+\pgfutil@tempdimb=\dimen116
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen117
+\pgf@y=\dimen118
+\pgf@xa=\dimen119
+\pgf@ya=\dimen120
+\pgf@xb=\dimen121
+\pgf@yb=\dimen122
+\pgf@xc=\dimen123
+\pgf@yc=\dimen124
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count103
+\c@pgf@countb=\count104
+\c@pgf@countc=\count105
+\c@pgf@countd=\count106
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count107
+\pgfsyssoftpath@bigbuffer@items=\count108
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen125
+\pgfmath@count=\count109
+\pgfmath@box=\box29
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count110
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen126
+\pgf@picmaxx=\dimen127
+\pgf@picminy=\dimen128
+\pgf@picmaxy=\dimen129
+\pgf@pathminx=\dimen130
+\pgf@pathmaxx=\dimen131
+\pgf@pathminy=\dimen132
+\pgf@pathmaxy=\dimen133
+\pgf@xx=\dimen134
+\pgf@xy=\dimen135
+\pgf@yx=\dimen136
+\pgf@yy=\dimen137
+\pgf@zx=\dimen138
+\pgf@zy=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen140
+\pgf@path@lasty=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen142
+\pgf@shorten@start@additional=\dimen143
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count111
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen144
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen145
+\pgf@pt@y=\dimen146
+\pgf@pt@temp=\dimen147
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen148
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen149
+\pgf@sys@shading@range@num=\count112
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box33
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box34
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen150
+\pgf@nodesepend=\dimen151
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen152
+\pgffor@skip=\dimen153
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count113
+\pgfplotmarksize=\dimen154
+)
+\tikz@lastx=\dimen155
+\tikz@lasty=\dimen156
+\tikz@lastxsaved=\dimen157
+\tikz@lastysaved=\dimen158
+\tikzleveldistance=\dimen159
+\tikzsiblingdistance=\dimen160
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count114
+\tikznumberofchildren=\count115
+\tikznumberofcurrentchild=\count116
+\tikz@fig@count=\count117
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count118
+\pgfmatrixcurrentcolumn=\count119
+\pgf@matrix@numberofcolumns=\count120
+)
+\tikz@expandcount=\count121
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count122
+\calc@Bcount=\count123
+\calc@Adimen=\dimen161
+\calc@Bdimen=\dimen162
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count124
+\calc@Cskip=\skip48
+)
+\c@@todonotes@numberoftodonotes=\count125
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count126
+\float@exts=\toks39
+\float@box=\box39
+\@float@everytoks=\toks40
+\@floatcapt=\box40
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen163
+\captionmargin@=\dimen164
+\captionwidth=\dimen165
+\caption@tempdima=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
+)
+\c@ContinuedFloat=\count127
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count128
+\c@subtable=\count129
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen170
+\Hy@linkcounter=\count130
+\Hy@pagecounter=\count131
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count132
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 4319.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count133
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen171
+\Fld@menulength=\count134
+\Field@Width=\dimen172
+\Fld@charsize=\dimen173
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count135
+\c@Item=\count136
+\c@Hfootnote=\count137
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count138
+\c@bookmark@seq@number=\count139
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count140
+\lst@gtempboxa=\box41
+\lst@token=\toks41
+\lst@length=\count141
+\lst@currlwidth=\dimen174
+\lst@column=\count142
+\lst@pos=\count143
+\lst@lostspace=\dimen175
+\lst@width=\dimen176
+\lst@newlines=\count144
+\lst@lineno=\count145
+\lst@maxwidth=\dimen177
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count146
+\lst@skipnumbers=\count147
+\lst@framebox=\box42
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (./notes.aux
+
+LaTeX Warning: Label `fig:TFIM' multiply defined.
+
+
+LaTeX Warning: Label `fig:TFIM' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+)
+\openout1 = `notes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count148
+\scratchdimen=\dimen178
+\scratchbox=\box43
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen179
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
+\everyMPtoPDFconversion=\toks43
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box44
+Package hyperref Info: Link coloring ON on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count154
+)
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
+
+(./notes.out) (./notes.out)
+\@outlinefile=\write4
+\openout4 = `notes.out'.
+
+\c@lstlisting=\count155
+ <logo.png, id=143, 451.6875pt x 458.46281pt>
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 68.
+(pdftex.def)             Requested size: 103.50105pt x 105.05247pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>] (./notes.toc)
+\tf@toc=\write5
+\openout5 = `notes.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \newpage
+              [1] (./notes.lof [2] [3] [4] [5] [6])
+\tf@lof=\write6
+\openout6 = `notes.lof'.
+
+ [7]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 80.
+
+<../plots/mz_h.png, id=662, 578.16pt x 433.62pt>
+File: ../plots/mz_h.png Graphic file (type png)
+ <use ../plots/mz_h.png>
+Package pdftex.def Info: ../plots/mz_h.png used on input line 83.
+(pdftex.def)             Requested size: 276.00105pt x 206.9972pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 87.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 87.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 87.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 87.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 87.
+
+<../plots/mz_t.png, id=663, 578.16pt x 433.62pt>
+File: ../plots/mz_t.png Graphic file (type png)
+ <use ../plots/mz_t.png>
+Package pdftex.def Info: ../plots/mz_t.png used on input line 91.
+(pdftex.def)             Requested size: 207.0021pt x 155.24954pt.
+
+<../plots/mz_t100.png, id=664, 578.16pt x 433.62pt>
+File: ../plots/mz_t100.png Graphic file (type png)
+ <use ../plots/mz_t100.png>
+Package pdftex.def Info: ../plots/mz_t100.png used on input line 96.
+(pdftex.def)             Requested size: 207.0021pt x 155.24954pt.
+
+Overfull \hbox (71.22643pt too wide) in paragraph at lines 89--99
+[]$[]$ $[]$ 
+ []
+
+[8 <../plots/mz_h.png> <../plots/mz_t.png> <../plots/mz_t100.png>]
+<../plots/entropy.png, id=675, 578.16pt x 433.62pt>
+File: ../plots/entropy.png Graphic file (type png)
+ <use ../plots/entropy.png>
+Package pdftex.def Info: ../plots/entropy.png used on input line 107.
+(pdftex.def)             Requested size: 276.00105pt x 206.9972pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+<../plots/tfim.pdf, id=676, 1234.01027pt x 575.44986pt>
+File: ../plots/tfim.pdf Graphic file (type pdf)
+
+<use ../plots/tfim.pdf>
+Package pdftex.def Info: ../plots/tfim.pdf used on input line 115.
+(pdftex.def)             Requested size: 345.0pt x 160.879pt.
+
+<../plots/simple_quench/tfim.pdf, id=677, 578.16pt x 433.62pt>
+File: ../plots/simple_quench/tfim.pdf Graphic file (type pdf)
+
+<use ../plots/simple_quench/tfim.pdf>
+Package pdftex.def Info: ../plots/simple_quench/tfim.pdf used on input line 122
+.
+(pdftex.def)             Requested size: 276.00105pt x 206.9972pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <../plots/entropy.png> <../plots/tfim.pdf>]
+<../plots/tfim_sample.pdf, id=724, 578.16pt x 433.62pt>
+File: ../plots/tfim_sample.pdf Graphic file (type pdf)
+
+<use ../plots/tfim_sample.pdf>
+Package pdftex.def Info: ../plots/tfim_sample.pdf used on input line 131.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+
+<../plots/tfim_hv01.pdf, id=725, 578.16pt x 433.62pt>
+File: ../plots/tfim_hv01.pdf Graphic file (type pdf)
+
+<use ../plots/tfim_hv01.pdf>
+Package pdftex.def Info: ../plots/tfim_hv01.pdf used on input line 138.
+(pdftex.def)             Requested size: 276.00105pt x 206.9972pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <../plots/simple_quench/tfim.pdf> <../plots/tfim_sample.pdf
+
+pdfTeX warning: pdflatex (file ../plots/tfim_sample.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 145.
+
+<../plots/time_evol_annni.pdf, id=819, 1234.01027pt x 575.44986pt>
+File: ../plots/time_evol_annni.pdf Graphic file (type pdf)
+
+<use ../plots/time_evol_annni.pdf>
+Package pdftex.def Info: ../plots/time_evol_annni.pdf used on input line 149.
+(pdftex.def)             Requested size: 345.0pt x 160.879pt.
+
+<../plots/simple_quench/annni_01.pdf, id=820, 578.16pt x 433.62pt>
+File: ../plots/simple_quench/annni_01.pdf Graphic file (type pdf)
+
+<use ../plots/simple_quench/annni_01.pdf>
+Package pdftex.def Info: ../plots/simple_quench/annni_01.pdf used on input line
+ 155.
+(pdftex.def)             Requested size: 327.74895pt x 245.80959pt.
+
+<../plots/simple_quench/annni_05.pdf, id=821, 578.16pt x 433.62pt>
+File: ../plots/simple_quench/annni_05.pdf Graphic file (type pdf)
+
+<use ../plots/simple_quench/annni_05.pdf>
+Package pdftex.def Info: ../plots/simple_quench/annni_05.pdf used on input line
+ 162.
+(pdftex.def)             Requested size: 327.74895pt x 245.80959pt.
+
+<../plots/simple_quench/annni_1.pdf, id=822, 578.16pt x 433.62pt>
+File: ../plots/simple_quench/annni_1.pdf Graphic file (type pdf)
+
+<use ../plots/simple_quench/annni_1.pdf>
+Package pdftex.def Info: ../plots/simple_quench/annni_1.pdf used on input line 
+169.
+(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
+
+<../plots/annni_N10_J01_single.pdf, id=823, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J01_single.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J01_single.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J01_single.pdf used on input line 1
+76.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J05_single.pdf, id=824, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J05_single.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J05_single.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J05_single.pdf used on input line 1
+83.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J1_single.pdf, id=825, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J1_single.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J1_single.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J1_single.pdf used on input line 19
+0.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J01_hv0.pdf, id=826, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J01_hv0.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J01_hv0.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J01_hv0.pdf used on input line 197.
+
+(pdftex.def)             Requested size: 338.09853pt x 253.58662pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J05_hv0.pdf, id=827, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J05_hv0.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J05_hv0.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J05_hv0.pdf used on input line 204.
+
+(pdftex.def)             Requested size: 338.09853pt x 253.58662pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J1_hv0.pdf, id=828, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J1_hv0.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J1_hv0.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J1_hv0.pdf used on input line 211.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <../plots/tfim_hv01.pdf> <../plots/time_evol_annni.pdf
+
+pdfTeX warning: pdflatex (file ../plots/time_evol_annni.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>] [12 <../plots/simple_quench/annni_01.pdf> <../plots/simple_quench/annni_05.p
+df
+
+pdfTeX warning: pdflatex (file ../plots/simple_quench/annni_05.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 13 contains only floats.
+
+[13 <../plots/simple_quench/annni_1.pdf> <../plots/annni_N10_J01_single.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_N10_J01_single.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 14 contains only floats.
+
+[14 <../plots/annni_N10_J05_single.pdf> <../plots/annni_N10_J1_single.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_N10_J1_single.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 15 contains only floats.
+
+[15 <../plots/annni_N10_J01_hv0.pdf> <../plots/annni_N10_J05_hv0.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_N10_J05_hv0.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>] <../plots/annni_sample_J01.pdf, id=1241, 462.52798pt x 346.89601pt>
+File: ../plots/annni_sample_J01.pdf Graphic file (type pdf)
+
+<use ../plots/annni_sample_J01.pdf>
+Package pdftex.def Info: ../plots/annni_sample_J01.pdf used on input line 220.
+(pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
+
+<../plots/annni_sample.pdf, id=1242, 578.16pt x 433.62pt>
+File: ../plots/annni_sample.pdf Graphic file (type pdf)
+
+<use ../plots/annni_sample.pdf>
+Package pdftex.def Info: ../plots/annni_sample.pdf used on input line 227.
+(pdftex.def)             Requested size: 327.74895pt x 245.80959pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_sample_J1.pdf, id=1243, 462.52798pt x 346.89601pt>
+File: ../plots/annni_sample_J1.pdf Graphic file (type pdf)
+
+<use ../plots/annni_sample_J1.pdf>
+Package pdftex.def Info: ../plots/annni_sample_J1.pdf used on input line 234.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_hv01_J01.pdf, id=1244, 578.16pt x 433.62pt>
+File: ../plots/annni_hv01_J01.pdf Graphic file (type pdf)
+
+<use ../plots/annni_hv01_J01.pdf>
+Package pdftex.def Info: ../plots/annni_hv01_J01.pdf used on input line 241.
+(pdftex.def)             Requested size: 327.74895pt x 245.80959pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_hv01_J05.pdf, id=1245, 578.16pt x 433.62pt>
+File: ../plots/annni_hv01_J05.pdf Graphic file (type pdf)
+
+<use ../plots/annni_hv01_J05.pdf>
+Package pdftex.def Info: ../plots/annni_hv01_J05.pdf used on input line 248.
+(pdftex.def)             Requested size: 327.74895pt x 245.80959pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_hv01_J1.pdf, id=1246, 578.16pt x 433.62pt>
+File: ../plots/annni_hv01_J1.pdf Graphic file (type pdf)
+
+<use ../plots/annni_hv01_J1.pdf>
+Package pdftex.def Info: ../plots/annni_hv01_J1.pdf used on input line 255.
+(pdftex.def)             Requested size: 327.74895pt x 245.80959pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_3000_J01.pdf, id=1247, 578.16pt x 433.62pt>
+File: ../plots/annni_3000_J01.pdf Graphic file (type pdf)
+
+<use ../plots/annni_3000_J01.pdf>
+Package pdftex.def Info: ../plots/annni_3000_J01.pdf used on input line 262.
+(pdftex.def)             Requested size: 327.74895pt x 245.80959pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_1000_J01.pdf, id=1248, 578.16pt x 433.62pt>
+File: ../plots/annni_1000_J01.pdf Graphic file (type pdf)
+
+<use ../plots/annni_1000_J01.pdf>
+Package pdftex.def Info: ../plots/annni_1000_J01.pdf used on input line 269.
+(pdftex.def)             Requested size: 327.74895pt x 245.80959pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J01.pdf, id=1249, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J01.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J01.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J01.pdf used on input line 276.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J05.pdf, id=1250, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J05.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J05.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J05.pdf used on input line 283.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J1.pdf, id=1251, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J1.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J1.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J1.pdf used on input line 290.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_N10_J01_hv01_1000.pdf, id=1252, 462.52798pt x 346.89601pt>
+File: ../plots/annni_N10_J01_hv01_1000.pdf Graphic file (type pdf)
+
+<use ../plots/annni_N10_J01_hv01_1000.pdf>
+Package pdftex.def Info: ../plots/annni_N10_J01_hv01_1000.pdf used on input lin
+e 297.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_dh001_N10_J01_eff.pdf, id=1253, 462.52798pt x 346.89601pt>
+File: ../plots/annni_dh001_N10_J01_eff.pdf Graphic file (type pdf)
+
+<use ../plots/annni_dh001_N10_J01_eff.pdf>
+Package pdftex.def Info: ../plots/annni_dh001_N10_J01_eff.pdf used on input lin
+e 304.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_dh001_N10_J05_eff.pdf, id=1254, 462.52798pt x 346.89601pt>
+File: ../plots/annni_dh001_N10_J05_eff.pdf Graphic file (type pdf)
+
+<use ../plots/annni_dh001_N10_J05_eff.pdf>
+Package pdftex.def Info: ../plots/annni_dh001_N10_J05_eff.pdf used on input lin
+e 311.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../plots/annni_dh001_N10_J1_eff.pdf, id=1255, 462.52798pt x 346.89601pt>
+File: ../plots/annni_dh001_N10_J1_eff.pdf Graphic file (type pdf)
+
+<use ../plots/annni_dh001_N10_J1_eff.pdf>
+Package pdftex.def Info: ../plots/annni_dh001_N10_J1_eff.pdf used on input line
+ 318.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 323.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 323.
+
+
+<../plots/S_min_vs_Jp_3points_3plots_scatter.pdf, id=1256, 462.52798pt x 346.89
+601pt>
+File: ../plots/S_min_vs_Jp_3points_3plots_scatter.pdf Graphic file (type pdf)
+ <use ../plots/S_min_vs_Jp_3points_3plots_scatter.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_Jp_3points_3plots_scatter.pdf used o
+n input line 326.
+(pdftex.def)             Requested size: 293.2521pt x 219.94833pt.
+ [16 <../plots/annni_N10_J1_hv0.pdf> <../plots/annni_sample_J01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_sample_J01.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 17 contains only floats.
+
+[17 <../plots/annni_sample.pdf> <../plots/annni_sample_J1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_sample_J1.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 18 contains only floats.
+
+[18 <../plots/annni_hv01_J01.pdf> <../plots/annni_hv01_J05.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_hv01_J05.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 19 contains only floats.
+
+[19 <../plots/annni_hv01_J1.pdf> <../plots/annni_3000_J01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_3000_J01.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 20 contains only floats.
+
+[20 <../plots/annni_1000_J01.pdf> <../plots/annni_N10_J01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_N10_J01.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 21 contains only floats.
+
+[21 <../plots/annni_N10_J05.pdf> <../plots/annni_N10_J1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/annni_N10_J1.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 22 contains only floats.
+
+[22 <../plots/annni_N10_J01_hv01_1000.pdf> <../plots/annni_dh001_N10_J01_eff.pd
+f
+
+pdfTeX warning: pdflatex (file ../plots/annni_dh001_N10_J01_eff.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 23 contains only floats.
+
+[23 <../plots/annni_dh001_N10_J05_eff.pdf> <../plots/annni_dh001_N10_J1_eff.pdf
+
+
+pdfTeX warning: pdflatex (file ../plots/annni_dh001_N10_J1_eff.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 331.
+
+
+<../plots/mz_max_vs_Jp_3points_3plots_scatter.pdf, id=1938, 462.52798pt x 346.8
+9601pt>
+File: ../plots/mz_max_vs_Jp_3points_3plots_scatter.pdf Graphic file (type pdf)
+ <use ../plots/mz_max_vs_Jp_3points_3plots_scatter.pdf>
+Package pdftex.def Info: ../plots/mz_max_vs_Jp_3points_3plots_scatter.pdf used 
+on input line 334.
+(pdftex.def)             Requested size: 293.2521pt x 219.94833pt.
+ [24 <../plots/S_min_vs_Jp_3points_3plots_scatter.pdf> <../plots/mz_max_vs_Jp_3
+points_3plots_scatter.pdf
+
+pdfTeX warning: pdflatex (file ../plots/mz_max_vs_Jp_3points_3plots_scatter.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 339.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 339.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 339.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 339.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 339.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 339.
+
+
+<../plots/S_min_vs_tau_N8_Jp_all_NGrid_log.pdf, id=2016, 462.52798pt x 346.8960
+1pt>
+File: ../plots/S_min_vs_tau_N8_Jp_all_NGrid_log.pdf Graphic file (type pdf)
+ <use ../plots/S_min_vs_tau_N8_Jp_all_NGrid_log.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_tau_N8_Jp_all_NGrid_log.pdf used on 
+input line 342.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/S_min_vs_tau_N10_Jp_all_NGrid_log.pdf, id=2017, 462.52798pt x 346.896
+01pt>
+File: ../plots/S_min_vs_tau_N10_Jp_all_NGrid_log.pdf Graphic file (type pdf)
+ <use ../plots/S_min_vs_tau_N10_Jp_all_NGrid_log.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_tau_N10_Jp_all_NGrid_log.pdf used on
+ input line 349.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/S_min_vs_tau_hv1_N8_Jp_all_NGrid_log.pdf, id=2018, 462.52798pt x 346.
+89601pt>
+File: ../plots/S_min_vs_tau_hv1_N8_Jp_all_NGrid_log.pdf Graphic file (type pdf)
+
+ <use ../plots/S_min_vs_tau_hv1_N8_Jp_all_NGrid_log.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_tau_hv1_N8_Jp_all_NGrid_log.pdf used
+ on input line 356.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_min_vs_tau_hv1_N10_Jp_all_NGrid_log.pdf, id=2019, 462.52798pt x 346
+.89601pt>
+File: ../plots/S_min_vs_tau_hv1_N10_Jp_all_NGrid_log.pdf Graphic file (type pdf
+)
+ <use ../plots/S_min_vs_tau_hv1_N10_Jp_all_NGrid_log.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_tau_hv1_N10_Jp_all_NGrid_log.pdf use
+d on input line 363.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_min_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf, id=2020, 462.52798pt x 34
+6.89601pt>
+File: ../plots/S_min_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf Graphic file (type pd
+f)
+ <use ../plots/S_min_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf us
+ed on input line 370.
+(pdftex.def)             Requested size: 324.30084pt x 243.23842pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_min_vs_tau_hv1_dh001_N10_Jp_all_NGrid.pdf, id=2021, 462.52798pt x 3
+46.89601pt>
+File: ../plots/S_min_vs_tau_hv1_dh001_N10_Jp_all_NGrid.pdf Graphic file (type p
+df)
+ <use ../plots/S_min_vs_tau_hv1_dh001_N10_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_tau_hv1_dh001_N10_Jp_all_NGrid.pdf u
+sed on input line 377.
+(pdftex.def)             Requested size: 324.30084pt x 243.23842pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_min_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf, id=2022, 462.52798pt x 3
+46.89601pt>
+File: ../plots/S_min_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf Graphic file (type p
+df)
+ <use ../plots/S_min_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf u
+sed on input line 384.
+(pdftex.def)             Requested size: 324.30084pt x 243.23842pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_min_vs_tau_hv01_dh001_N10_Jp_all_NGrid.pdf, id=2023, 462.52798pt x 
+346.89601pt>
+File: ../plots/S_min_vs_tau_hv01_dh001_N10_Jp_all_NGrid.pdf Graphic file (type 
+pdf)
+ <use ../plots/S_min_vs_tau_hv01_dh001_N10_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_min_vs_tau_hv01_dh001_N10_Jp_all_NGrid.pdf 
+used on input line 391.
+(pdftex.def)             Requested size: 324.30084pt x 243.23842pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_N8_Jp_all_window.pdf, id=2024, 462.52798pt x 346
+.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_N8_Jp_all_window.pdf Graphic file (type pdf
+)
+ <use ../plots/S_minbymaxdif_vs_tau_N8_Jp_all_window.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_N8_Jp_all_window.pdf use
+d on input line 398.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_N10_Jp_all_window.pdf, id=2025, 462.52798pt x 34
+6.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_N10_Jp_all_window.pdf Graphic file (type pd
+f)
+ <use ../plots/S_minbymaxdif_vs_tau_N10_Jp_all_window.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_N10_Jp_all_window.pdf us
+ed on input line 405.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_N8_Jp_all_NGrid.pdf, id=2026, 462.52798pt x 346.
+89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_N8_Jp_all_NGrid.pdf Graphic file (type pdf)
+
+ <use ../plots/S_minbymaxdif_vs_tau_N8_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_N8_Jp_all_NGrid.pdf used
+ on input line 412.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_N10_Jp_all_NGrid.pdf, id=2027, 462.52798pt x 346
+.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_N10_Jp_all_NGrid.pdf Graphic file (type pdf
+)
+ <use ../plots/S_minbymaxdif_vs_tau_N10_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_N10_Jp_all_NGrid.pdf use
+d on input line 419.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_hv1_N8_Jp_all_NGrid.pdf, id=2028, 462.52798pt x 
+346.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_hv1_N8_Jp_all_NGrid.pdf Graphic file (type 
+pdf)
+ <use ../plots/S_minbymaxdif_vs_tau_hv1_N8_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_hv1_N8_Jp_all_NGrid.pdf 
+used on input line 426.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_hv1_N10_Jp_all_NGrid.pdf, id=2029, 462.52798pt x
+ 346.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_hv1_N10_Jp_all_NGrid.pdf Graphic file (type
+ pdf)
+ <use ../plots/S_minbymaxdif_vs_tau_hv1_N10_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_hv1_N10_Jp_all_NGrid.pdf
+ used on input line 433.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf, id=2030, 462.5279
+8pt x 346.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf Graphic file 
+(type pdf)
+
+<use ../plots/S_minbymaxdif_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_hv1_dh001_N8_Jp_all_NGri
+d.pdf used on input line 440.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_hv1_dh001_N10_Jp_all_NGrid.pdf, id=2031, 462.527
+98pt x 346.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_hv1_dh001_N10_Jp_all_NGrid.pdf Graphic file
+ (type pdf)
+
+<use ../plots/S_minbymaxdif_vs_tau_hv1_dh001_N10_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_hv1_dh001_N10_Jp_all_NGr
+id.pdf used on input line 447.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf, id=2032, 462.527
+98pt x 346.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf Graphic file
+ (type pdf)
+
+<use ../plots/S_minbymaxdif_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_hv01_dh001_N8_Jp_all_NGr
+id.pdf used on input line 454.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/S_minbymaxdif_vs_tau_hv01_dh001_N10_Jp_all_NGrid.pdf, id=2033, 462.52
+798pt x 346.89601pt>
+File: ../plots/S_minbymaxdif_vs_tau_hv01_dh001_N10_Jp_all_NGrid.pdf Graphic fil
+e (type pdf)
+
+<use ../plots/S_minbymaxdif_vs_tau_hv01_dh001_N10_Jp_all_NGrid.pdf>
+Package pdftex.def Info: ../plots/S_minbymaxdif_vs_tau_hv01_dh001_N10_Jp_all_NG
+rid.pdf used on input line 461.
+(pdftex.def)             Requested size: 327.74895pt x 245.82149pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh01/hv01/annni_hv01_dh01_N10_s_min_tau.pdf, id=2034, 987.20822pt
+ x 434.3427pt>
+File: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_s_min_tau.pdf Graphic file (ty
+pe pdf)
+ <use ../plots/new/dh01/hv01/annni_hv01_dh01_N10_s_min_tau.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_s_min_tau.p
+df used on input line 468.
+(pdftex.def)             Requested size: 345.0pt x 151.79025pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh01/hv1/annni_hv1_dh01_N10_s_min_tau.pdf, id=2035, 987.20822pt x
+ 434.3427pt>
+File: ../plots/new/dh01/hv1/annni_hv1_dh01_N10_s_min_tau.pdf Graphic file (type
+ pdf)
+ <use ../plots/new/dh01/hv1/annni_hv1_dh01_N10_s_min_tau.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv1/annni_hv1_dh01_N10_s_min_tau.pdf
+ used on input line 475.
+(pdftex.def)             Requested size: 345.0pt x 151.79025pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25 <../plots/S_min_vs_tau_N8_Jp_all_NGrid_log.pdf> <../plots/S_min_vs_tau_N10_
+Jp_all_NGrid_log.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_min_vs_tau_N10_Jp_all_NGrid_log.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 26 contains only floats.
+
+[26 <../plots/S_min_vs_tau_hv1_N8_Jp_all_NGrid_log.pdf> <../plots/S_min_vs_tau_
+hv1_N10_Jp_all_NGrid_log.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_min_vs_tau_hv1_N10_Jp_all_NGrid_log.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 27 contains only floats.
+
+[27 <../plots/S_min_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf> <../plots/S_min_vs_ta
+u_hv1_dh001_N10_Jp_all_NGrid.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_min_vs_tau_hv1_dh001_N10_Jp_all_NGrid
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 28 contains only floats.
+
+[28 <../plots/S_min_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf> <../plots/S_min_vs_t
+au_hv01_dh001_N10_Jp_all_NGrid.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_min_vs_tau_hv01_dh001_N10_Jp_all_NGri
+d.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 29 contains only floats.
+
+[29 <../plots/S_minbymaxdif_vs_tau_N8_Jp_all_window.pdf> <../plots/S_minbymaxdi
+f_vs_tau_N10_Jp_all_window.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_minbymaxdif_vs_tau_N10_Jp_all_window.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 30 contains only floats.
+
+[30 <../plots/S_minbymaxdif_vs_tau_N8_Jp_all_NGrid.pdf> <../plots/S_minbymaxdif
+_vs_tau_N10_Jp_all_NGrid.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_minbymaxdif_vs_tau_N10_Jp_all_NGrid.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 31 contains only floats.
+
+[31 <../plots/S_minbymaxdif_vs_tau_hv1_N8_Jp_all_NGrid.pdf> <../plots/S_minbyma
+xdif_vs_tau_hv1_N10_Jp_all_NGrid.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_minbymaxdif_vs_tau_hv1_N10_Jp_all_NGr
+id.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+>]
+
+LaTeX Warning: Text page 32 contains only floats.
+
+[32 <../plots/S_minbymaxdif_vs_tau_hv1_dh001_N8_Jp_all_NGrid.pdf> <../plots/S_m
+inbymaxdif_vs_tau_hv1_dh001_N10_Jp_all_NGrid.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_minbymaxdif_vs_tau_hv1_dh001_N10_Jp_a
+ll_NGrid.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>]
+
+LaTeX Warning: Text page 33 contains only floats.
+
+[33 <../plots/S_minbymaxdif_vs_tau_hv01_dh001_N8_Jp_all_NGrid.pdf> <../plots/S_
+minbymaxdif_vs_tau_hv01_dh001_N10_Jp_all_NGrid.pdf
+
+pdfTeX warning: pdflatex (file ../plots/S_minbymaxdif_vs_tau_hv01_dh001_N10_Jp_
+all_NGrid.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>] [34 <../plots/new/dh01/hv01/annni_hv01_dh01_N10_s_min_tau.pdf> <../plots/new
+/dh01/hv1/annni_hv1_dh01_N10_s_min_tau.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/dh01/hv1/annni_hv1_dh01_N10_s_min_t
+au.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 481.
+
+
+<../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min.pdf, id=2876, 987.2082
+2pt x 434.3427pt>
+File: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min.pdf Graphic file 
+(type pdf)
+
+<use ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_mi
+n.pdf used on input line 484.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+<../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax.pdf, id=2877, 987
+.20822pt x 434.3427pt>
+File: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax.pdf Graphic 
+file (type pdf)
+
+<use ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_mi
+nbymax.pdf used on input line 491.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+<../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_1.pdf, id
+=2878, 987.20822pt x 434.3427pt>
+File: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_1.pd
+f Graphic file (type pdf)
+
+<use ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_1.pdf
+>
+Package pdftex.def Info: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_
+min_s_minbymax_1.pdf used on input line 498.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+<../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min_obc.pdf, id=2879, 987.
+20822pt x 434.3427pt>
+File: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min_obc.pdf Graphic f
+ile (type pdf)
+
+<use ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min_obc.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_mi
+n_obc.pdf used on input line 505.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax_obc.pdf, id=2880,
+ 987.20822pt x 434.3427pt>
+File: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax_obc.pdf Grap
+hic file (type pdf)
+
+<use ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax_obc.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_mi
+nbymax_obc.pdf used on input line 512.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_obc.pdf, 
+id=2881, 987.20822pt x 434.3427pt>
+File: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_obc.
+pdf Graphic file (type pdf)
+
+<use ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_obc.p
+df>
+Package pdftex.def Info: ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_
+min_s_minbymax_obc.pdf used on input line 519.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_min.pdf, id=2882, 987.20822p
+t x 434.3427pt>
+File: ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_min.pdf Graphic file (t
+ype pdf)
+
+<use ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_min.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_min.
+pdf used on input line 526.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_minbymax.pdf, id=2883, 987.2
+0822pt x 434.3427pt>
+File: ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_minbymax.pdf Graphic fi
+le (type pdf)
+
+<use ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_minbymax.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_minb
+ymax.pdf used on input line 533.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_one_min_s_minbymax.pdf, id=288
+4, 987.20822pt x 434.3427pt>
+File: ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_one_min_s_minbymax.pdf Gr
+aphic file (type pdf)
+
+<use ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_one_min_s_minbymax.pdf>
+Package pdftex.def Info: ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_one_mi
+n_s_minbymax.pdf used on input line 540.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_min.pdf, id=2885, 987.20
+822pt x 434.3427pt>
+File: ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_min.pdf Graphic fil
+e (type pdf)
+
+<use ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_min.pdf>
+Package pdftex.def Info: ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_
+min.pdf used on input line 547.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_minbymax.pdf, id=2886, 9
+87.20822pt x 434.3427pt>
+File: ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_minbymax.pdf Graphi
+c file (type pdf)
+
+<use ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_minbymax.pdf>
+Package pdftex.def Info: ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_
+minbymax.pdf used on input line 554.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_one_min_s_minbymax.pdf, id
+=2887, 987.20822pt x 434.3427pt>
+File: ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_one_min_s_minbymax.pd
+f Graphic file (type pdf)
+
+<use ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_one_min_s_minbymax.pdf
+>
+Package pdftex.def Info: ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_on
+e_min_s_minbymax.pdf used on input line 561.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_min.pdf, id=2888, 987.20822pt
+ x 434.3427pt>
+File: ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_min.pdf Graphic file (ty
+pe pdf)
+ <use ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_min.pdf>
+Package pdftex.def Info: ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_min.p
+df used on input line 569.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_minbymax.pdf, id=2889, 987.20
+822pt x 434.3427pt>
+File: ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_minbymax.pdf Graphic fil
+e (type pdf)
+
+<use ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_minbymax.pdf>
+Package pdftex.def Info: ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_minby
+max.pdf used on input line 576.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_one_min_s_minbymax.pdf, id=2890
+, 987.20822pt x 434.3427pt>
+File: ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_one_min_s_minbymax.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_one_min_s_minbymax.pdf>
+Package pdftex.def Info: ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_one_min
+_s_minbymax.pdf used on input line 583.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_min.pdf, id=2891, 987.20822pt
+ x 434.3427pt>
+File: ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_min.pdf Graphic file (ty
+pe pdf)
+ <use ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_min.pdf>
+Package pdftex.def Info: ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_min.p
+df used on input line 590.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_minbymax.pdf, id=2892, 987.20
+822pt x 434.3427pt>
+File: ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_minbymax.pdf Graphic fil
+e (type pdf)
+
+<use ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_minbymax.pdf>
+Package pdftex.def Info: ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_minby
+max.pdf used on input line 597.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_one_min_s_minbymax.pdf, id=2893
+, 987.20822pt x 434.3427pt>
+File: ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_one_min_s_minbymax.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_one_min_s_minbymax.pdf>
+Package pdftex.def Info: ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_one_min
+_s_minbymax.pdf used on input line 604.
+(pdftex.def)             Requested size: 334.65042pt x 147.23714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35
+
+ <../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min.pdf> <../plots/new/dh
+01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_ta
+u_s_minbymax.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+> <../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_ta
+u_one_min_s_minbymax_1.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+>] [36 <../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_min_obc.pdf> <../pl
+ots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_s_minbymax_obc.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_ta
+u_s_minbymax_obc.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+> <../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_tau_one_min_s_minbymax_obc.pdf
+
+
+pdfTeX warning: pdflatex (file ../plots/new/dh01/hv01/annni_hv01_dh01_N10_Jp_ta
+u_one_min_s_minbymax_obc.pdf): PDF inclusion: multiple pdfs with page group inc
+luded in a single page
+>] [37 <../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_min.pdf> <../plots/ne
+w/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_
+s_minbymax.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_one_min_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/dh01/hv1/annni_hv1_dh01_N10_Jp_tau_
+one_min_s_minbymax.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>] [38 <../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_min.pdf> <../plot
+s/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_
+tau_s_minbymax.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+> <../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_tau_one_min_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/dh001/hv01/annni_hv01_dh001_N10_Jp_
+tau_one_min_s_minbymax.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+>] [39 <../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_min.pdf> <../plots/new
+/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_s
+_minbymax.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+> <../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_one_min_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/N8/hv01/annni_hv01_dh01_N8_Jp_tau_o
+ne_min_s_minbymax.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>] [40 <../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_min.pdf> <../plots/new
+/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_s
+_minbymax.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+> <../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_one_min_s_minbymax.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/N6/hv01/annni_hv01_dh01_N6_Jp_tau_o
+ne_min_s_minbymax.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@over' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 612.
+
+<../plots/new/tau_at_half_Jp_imp.pdf, id=3586, 987.20822pt x 434.3427pt>
+File: ../plots/new/tau_at_half_Jp_imp.pdf Graphic file (type pdf)
+
+<use ../plots/new/tau_at_half_Jp_imp.pdf>
+Package pdftex.def Info: ../plots/new/tau_at_half_Jp_imp.pdf used on input line
+ 615.
+(pdftex.def)             Requested size: 379.5021pt x 166.9673pt.
+
+Overfull \hbox (34.5021pt too wide) in paragraph at lines 615--616
+ [][] 
+ []
+
+<../plots/new/tau_at_half_Jp.pdf, id=3587, 987.20822pt x 434.3427pt>
+File: ../plots/new/tau_at_half_Jp.pdf Graphic file (type pdf)
+
+<use ../plots/new/tau_at_half_Jp.pdf>
+Package pdftex.def Info: ../plots/new/tau_at_half_Jp.pdf used on input line 622
+.
+(pdftex.def)             Requested size: 379.5021pt x 166.9673pt.
+
+Overfull \hbox (34.5021pt too wide) in paragraph at lines 622--623
+ [][] 
+ []
+
+[41
+
+ <../plots/new/tau_at_half_Jp_imp.pdf> <../plots/new/tau_at_half_Jp.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/tau_at_half_Jp.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] <../plots/new/tau_at_half_Jp_imp1.pdf, id=3670, 462.52798pt x 346.89601pt>
+File: ../plots/new/tau_at_half_Jp_imp1.pdf Graphic file (type pdf)
+
+<use ../plots/new/tau_at_half_Jp_imp1.pdf>
+Package pdftex.def Info: ../plots/new/tau_at_half_Jp_imp1.pdf used on input lin
+e 631.
+(pdftex.def)             Requested size: 379.5021pt x 284.64183pt.
+
+Overfull \hbox (34.5021pt too wide) in paragraph at lines 631--632
+ [][] 
+ []
+
+<../plots/new/tau_at_07_Jp.pdf, id=3671, 987.20822pt x 434.3427pt>
+File: ../plots/new/tau_at_07_Jp.pdf Graphic file (type pdf)
+
+<use ../plots/new/tau_at_07_Jp.pdf>
+Package pdftex.def Info: ../plots/new/tau_at_07_Jp.pdf used on input line 638.
+(pdftex.def)             Requested size: 379.5021pt x 166.9673pt.
+
+Overfull \hbox (34.5021pt too wide) in paragraph at lines 638--639
+ [][] 
+ []
+
+<../plots/new/tau_at_half_Jp_all.pdf, id=3672, 987.20822pt x 434.3427pt>
+File: ../plots/new/tau_at_half_Jp_all.pdf Graphic file (type pdf)
+
+<use ../plots/new/tau_at_half_Jp_all.pdf>
+Package pdftex.def Info: ../plots/new/tau_at_half_Jp_all.pdf used on input line
+ 645.
+(pdftex.def)             Requested size: 379.5021pt x 166.9673pt.
+
+Overfull \hbox (34.5021pt too wide) in paragraph at lines 645--646
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42
+
+ <../plots/new/tau_at_half_Jp_imp1.pdf> <../plots/new/tau_at_07_Jp.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/tau_at_07_Jp.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] [43 <../plots/new/tau_at_half_Jp_all.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 651.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 651.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 651.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 651.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 651.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 651.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 651.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 651.
+
+
+<../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_min_ran_int_st.pdf, id=37
+93, 987.20822pt x 434.3427pt>
+File: ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_min_ran_int_st.pdf G
+raphic file (type pdf)
+
+<use ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_min_ran_int_st.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_m
+in_ran_int_st.pdf used on input line 654.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+<../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_minbymax_ran_int_st.pdf, 
+id=3794, 987.20822pt x 434.3427pt>
+File: ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_minbymax_ran_int_st.
+pdf Graphic file (type pdf)
+
+<use ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_minbymax_ran_int_st.p
+df>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_m
+inbymax_ran_int_st.pdf used on input line 661.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+<../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_one_min_s_minbymax_ran_int_
+st.pdf, id=3795, 987.20822pt x 434.3427pt>
+File: ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_one_min_s_minbymax_ran
+_int_st.pdf Graphic file (type pdf)
+
+<use ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_one_min_s_minbymax_ran_
+int_st.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_one
+_min_s_minbymax_ran_int_st.pdf used on input line 668.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+<../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_min_ran_int_st.pdf, id=
+3796, 987.20822pt x 434.3427pt>
+File: ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_min_ran_int_st.pdf
+ Graphic file (type pdf)
+
+<use ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_min_ran_int_st.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s
+_min_ran_int_st.pdf used on input line 676.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_minbymax_ran_int_st.pdf
+, id=3797, 987.20822pt x 434.3427pt>
+File: ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_minbymax_ran_int_s
+t.pdf Graphic file (type pdf)
+
+<use ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_minbymax_ran_int_st
+.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s
+_minbymax_ran_int_st.pdf used on input line 683.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_one_min_s_minbymax_ran_in
+t_st.pdf, id=3798, 987.20822pt x 434.3427pt>
+File: ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_one_min_s_minbymax_r
+an_int_st.pdf Graphic file (type pdf)
+
+<use ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_one_min_s_minbymax_ra
+n_int_st.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_o
+ne_min_s_minbymax_ran_int_st.pdf used on input line 690.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_std_ran_int_st.pdf, id=3799
+, 987.20822pt x 434.3427pt>
+File: ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_std_ran_int_st.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_std_ran_int_st.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_std
+_ran_int_st.pdf used on input line 697.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_std_ran_int_st.pdf, id=38
+00, 987.20822pt x 434.3427pt>
+File: ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_std_ran_int_st.pdf G
+raphic file (type pdf)
+
+<use ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_std_ran_int_st.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s
+td_ran_int_st.pdf used on input line 704.
+(pdftex.def)             Requested size: 310.4979pt x 136.60658pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44
+
+ <../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_min_ran_int_st.pdf> <../
+plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_s_minbymax_ran_int_st.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_t
+au_s_minbymax_ran_int_st.pdf): PDF inclusion: multiple pdfs with page group inc
+luded in a single page
+> <../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_one_min_s_minbymax_ran_in
+t_st.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_t
+au_one_min_s_minbymax_ran_int_st.pdf): PDF inclusion: multiple pdfs with page g
+roup included in a single page
+>] [45 <../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_min_ran_int_st.p
+df> <../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_s_minbymax_ran_int_st
+.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp
+_tau_s_minbymax_ran_int_st.pdf): PDF inclusion: multiple pdfs with page group i
+ncluded in a single page
+> <../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_one_min_s_minbymax_ran_
+int_st.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp
+_tau_one_min_s_minbymax_ran_int_st.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] [46 <../plots/new/ran_int_st/dh01/annni_dh01_N10_Jp_tau_std_ran_int_st.pdf> 
+<../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp_tau_std_ran_int_st.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ran_int_st/dh001/annni_dh001_N10_Jp
+_tau_std_ran_int_st.pdf): PDF inclusion: multiple pdfs with page group included
+ in a single page
+>]
+<../plots/new/ran_int_st/dh01/std/std_t.pdf, id=4060, 462.52798pt x 346.89601pt
+>
+File: ../plots/new/ran_int_st/dh01/std/std_t.pdf Graphic file (type pdf)
+ <use ../plots/new/ran_int_st/dh01/std/std_t.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh01/std/std_t.pdf used on inp
+ut line 713.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ran_int_st/dh01/std/std_t_hv.pdf, id=4061, 462.52798pt x 346.8960
+1pt>
+File: ../plots/new/ran_int_st/dh01/std/std_t_hv.pdf Graphic file (type pdf)
+ <use ../plots/new/ran_int_st/dh01/std/std_t_hv.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh01/std/std_t_hv.pdf used on 
+input line 720.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+ [47
+
+ <../plots/new/ran_int_st/dh01/std/std_t.pdf> <../plots/new/ran_int_st/dh01/std
+/std_t_hv.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ran_int_st/dh01/std/std_t_hv.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<../plots/new/ran_int_st/dh01/std/std_t_jp01.pdf, id=4141, 462.52798pt x 346.89
+601pt>
+File: ../plots/new/ran_int_st/dh01/std/std_t_jp01.pdf Graphic file (type pdf)
+ <use ../plots/new/ran_int_st/dh01/std/std_t_jp01.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh01/std/std_t_jp01.pdf used o
+n input line 728.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ran_int_st/dh01/std/std_t_jp01_hv.pdf, id=4142, 462.52798pt x 346
+.89601pt>
+File: ../plots/new/ran_int_st/dh01/std/std_t_jp01_hv.pdf Graphic file (type pdf
+)
+ <use ../plots/new/ran_int_st/dh01/std/std_t_jp01_hv.pdf>
+Package pdftex.def Info: ../plots/new/ran_int_st/dh01/std/std_t_jp01_hv.pdf use
+d on input line 735.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+ [48
+
+ <../plots/new/ran_int_st/dh01/std/std_t_jp01.pdf> <../plots/new/ran_int_st/dh0
+1/std/std_t_jp01_hv.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ran_int_st/dh01/std/std_t_jp01_hv.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 749.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 749.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 749.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 749.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 749.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t.pdf, id=4217, 462.5
+2798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t.pdf Graphic fi
+le (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_s_t.pdf used on input line 752.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t.pdf, id=4218, 462.527
+98pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t.pdf Graphic file
+ (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_t.pdf used on input line 759.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j01.pdf, id=4219, 4
+62.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j01.pdf Graphi
+c file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_s_t_j01.pdf used on input line 766.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j01.pdf, id=4220, 462
+.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j01.pdf Graphic 
+file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_t_j01.pdf used on input line 773.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j026.pdf, id=4221, 
+462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j026.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_s_t_j026.pdf used on input line 780.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j026.pdf, id=4222, 46
+2.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j026.pdf Graphic
+ file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_t_j026.pdf used on input line 787.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j051.pdf, id=4223, 
+462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j051.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_s_t_j051.pdf used on input line 794.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j051.pdf, id=4224, 46
+2.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j051.pdf Graphic
+ file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_t_j051.pdf used on input line 801.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j1.pdf, id=4225, 46
+2.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j1.pdf Graphic
+ file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_s_t_j1.pdf used on input line 809.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j1.pdf, id=4226, 462.
+52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j1.pdf Graphic f
+ile (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_t_j1.pdf used on input line 816.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t.pdf, id=4227, 462
+.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t.pdf Graphic 
+file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_s_t.pdf used on input line 825.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t.pdf, id=4228, 462.5
+2798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t.pdf Graphic fi
+le (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_t.pdf used on input line 832.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j01.pdf, id=4229,
+ 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j01.pdf Grap
+hic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_s_t_j01.pdf used on input line 839.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j01.pdf, id=4230, 4
+62.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j01.pdf Graphi
+c file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_t_j01.pdf used on input line 846.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j026.pdf, id=4231
+, 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j026.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_s_t_j026.pdf used on input line 853.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j026.pdf, id=4232, 
+462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j026.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_t_j026.pdf used on input line 860.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j051.pdf, id=4233
+, 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j051.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_s_t_j051.pdf used on input line 867.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j051.pdf, id=4234, 
+462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j051.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_t_j051.pdf used on input line 874.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j1.pdf, id=4235, 
+462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j1.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_s_t_j1.pdf used on input line 881.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j1.pdf, id=4236, 46
+2.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j1.pdf Graphic
+ file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_t_j1.pdf used on input line 888.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49
+
+ <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t.pdf> <../plots/new
+/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_s_t.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>] [50 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j01.pdf> <..
+/plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_s_t_j01.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+>] [51 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j026.pdf> <.
+./plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j026.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_s_t_j026.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>] [52 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j051.pdf> <.
+./plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j051.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_s_t_j051.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>] [53 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_s_t_j1.pdf> <../
+plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_t_j1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_s_t_j1.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>] [54 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t.pdf> <../p
+lots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_s_t.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>] [55 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j01.pdf> <
+../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_s_t_j01.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+>] [56 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j026.pdf> 
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j026.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_s_t_j026.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>] [57 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j051.pdf> 
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j051.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_s_t_j051.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>] [58 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_s_t_j1.pdf> <.
+./plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_t_j1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_s_t_j1.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 898.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 898.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 898.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 898.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 898.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 898.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau.pdf, id=4974, 462.5
+2798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau.pdf Graphic fi
+le (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_tau.pdf used on input line 901.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j01.pdf, id=4975, 4
+62.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j01.pdf Graphi
+c file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_tau_j01.pdf used on input line 908.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j026.pdf, id=4976, 
+478.42741pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j026.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_tau_j026.pdf used on input line 915.
+(pdftex.def)             Requested size: 310.4979pt x 225.14096pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j1.pdf, id=4977, 51
+8.89862pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j1.pdf Graphic
+ file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s
+_tau_j1.pdf used on input line 922.
+(pdftex.def)             Requested size: 310.4979pt x 207.58342pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau.pdf, id=4978, 547
+.80661pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau.pdf Graphic 
+file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_tau.pdf used on input line 929.
+(pdftex.def)             Requested size: 310.4979pt x 196.6265pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j01.pdf, id=4979,
+ 528.2937pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j01.pdf Grap
+hic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_tau_j01.pdf used on input line 936.
+(pdftex.def)             Requested size: 310.4979pt x 203.88347pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j026.pdf, id=4980
+, 471.20041pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j026.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_tau_j026.pdf used on input line 943.
+(pdftex.def)             Requested size: 310.4979pt x 228.59213pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j1.pdf, id=4981, 
+537.6888pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j1.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_s_tau_j1.pdf used on input line 950.
+(pdftex.def)             Requested size: 310.4979pt x 200.33174pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[59
+
+ <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau.pdf> <../plots/new
+/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_s_tau_j01.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+>] [60 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j026.pdf> <.
+./plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_s_tau_j1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_s_tau_j1.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>] [61 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau.pdf> <../p
+lots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_s_tau_j01.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+>] [62 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j026.pdf> 
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_s_tau_j1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_s_tau_j1.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 958.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delta' on input line 958.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 958.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene.pdf, id=5301, 46
+2.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene.pdf Graphic
+ file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e
+_in_ene.pdf used on input line 961.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j01.pdf, id=5302
+, 586.10968pt x 362.07271pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j01.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e
+_in_ene_j01.pdf used on input line 968.
+(pdftex.def)             Requested size: 310.4979pt x 191.81474pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j026.pdf, id=530
+3, 531.18451pt x 372.9132pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j026.pdf Gr
+aphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e
+_in_ene_j026.pdf used on input line 975.
+(pdftex.def)             Requested size: 310.4979pt x 217.99117pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j051.pdf, id=530
+4, 521.78943pt x 376.52669pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j051.pdf Gr
+aphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e
+_in_ene_j051.pdf used on input line 982.
+(pdftex.def)             Requested size: 310.4979pt x 224.05626pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j1.pdf, id=5305,
+ 523.9575pt x 380.1402pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j1.pdf Grap
+hic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e
+_in_ene_j1.pdf used on input line 989.
+(pdftex.def)             Requested size: 310.4979pt x 225.27844pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene.pdf, id=5306, 
+523.9575pt x 364.2408pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_e_in_ene.pdf used on input line 996.
+(pdftex.def)             Requested size: 310.4979pt x 215.85616pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j01.pdf, id=53
+07, 522.5121pt x 372.9132pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j01.pdf G
+raphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_e_in_ene_j01.pdf used on input line 1003.
+(pdftex.def)             Requested size: 310.4979pt x 221.60443pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j026.pdf, id=5
+308, 598.39557pt x 376.52669pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j026.pdf 
+Graphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_e_in_ene_j026.pdf used on input line 1010.
+(pdftex.def)             Requested size: 310.4979pt x 195.37558pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j051.pdf, id=5
+309, 534.07532pt x 391.70338pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j051.pdf 
+Graphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_e_in_ene_j051.pdf used on input line 1017.
+(pdftex.def)             Requested size: 310.4979pt x 227.72604pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j1.pdf, id=531
+0, 519.62129pt x 367.85431pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j1.pdf Gr
+aphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del
+_e_in_ene_j1.pdf used on input line 1024.
+(pdftex.def)             Requested size: 310.4979pt x 219.8162pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63
+
+ <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene.pdf> <../plots/
+new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_e_in_ene_j01.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>] [64 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j026.pdf>
+ <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j051.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_del_e_in_ene_j051.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>] [65 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_del_e_in_ene_j1.pdf> <
+../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_e_in_ene.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>] [66 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j01.pdf
+> <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j026.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_e_in_ene_j026.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
+>] [67 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j051.pd
+f> <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_del_e_in_ene_j1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_del_e_in_ene_j1.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>]
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples.pdf, id=5682, 
+484.209pt x 389.5353pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_en
+e_samples.pdf used on input line 1034.
+(pdftex.def)             Requested size: 310.4979pt x 249.79506pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j01.pdf, id=56
+83, 479.15009pt x 392.42609pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j01.pdf G
+raphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_en
+e_samples_j01.pdf used on input line 1041.
+(pdftex.def)             Requested size: 310.4979pt x 254.30748pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j026.pdf, id=5
+684, 494.32681pt x 389.5353pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j026.pdf 
+Graphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_en
+e_samples_j026.pdf used on input line 1048.
+(pdftex.def)             Requested size: 310.4979pt x 244.67743pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j051.pdf, id=5
+685, 484.9317pt x 385.92181pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j051.pdf 
+Graphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_en
+e_samples_j051.pdf used on input line 1055.
+(pdftex.def)             Requested size: 310.4979pt x 247.11278pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j1.pdf, id=568
+6, 462.52798pt x 396.0396pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j1.pdf Gr
+aphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_en
+e_samples_j1.pdf used on input line 1062.
+(pdftex.def)             Requested size: 310.4979pt x 265.87694pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples.pdf, id=5687
+, 462.52798pt x 392.42609pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_
+ene_samples.pdf used on input line 1069.
+(pdftex.def)             Requested size: 310.4979pt x 263.45105pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j01.pdf, id=
+5688, 462.52798pt x 406.15741pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j01.pdf
+ Graphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_
+ene_samples_j01.pdf used on input line 1076.
+(pdftex.def)             Requested size: 310.4979pt x 272.66942pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j026.pdf, id
+=5689, 462.52798pt x 407.60278pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j026.pd
+f Graphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j026.pdf
+>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_
+ene_samples_j026.pdf used on input line 1083.
+(pdftex.def)             Requested size: 310.4979pt x 273.63976pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j051.pdf, id
+=5690, 462.52798pt x 416.2752pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j051.pd
+f Graphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j051.pdf
+>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_
+ene_samples_j051.pdf used on input line 1090.
+(pdftex.def)             Requested size: 310.4979pt x 279.4619pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j1.pdf, id=5
+691, 462.52798pt x 395.3169pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j1.pdf 
+Graphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_
+ene_samples_j1.pdf used on input line 1097.
+(pdftex.def)             Requested size: 310.4979pt x 265.39175pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[68
+
+ <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples.pdf>]
+[69 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j01.pdf> <
+../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j026.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_in_ene_samples_j026.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
+>] [70 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j051.pd
+f> <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_in_ene_samples_j1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_in_ene_samples_j1.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>] [71 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples.pdf>]
+[72 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j01.pdf>
+] [73 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j026.p
+df>] [74 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_j05
+1.pdf>] [75 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_in_ene_samples_
+j1.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1104.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1104.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1104.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1104.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delta' on input line 1104.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1104.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e.pdf, id=6127, 462.
+52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e.pdf Graphic f
+ile (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_
+del_e.pdf used on input line 1107.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j01.pdf, id=6128, 
+462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j01.pdf Graph
+ic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_
+del_e_j01.pdf used on input line 1114.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j026.pdf, id=6129,
+ 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j026.pdf Grap
+hic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_
+del_e_j026.pdf used on input line 1121.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j051.pdf, id=6130,
+ 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j051.pdf Grap
+hic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_
+del_e_j051.pdf used on input line 1128.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j1.pdf, id=6131, 4
+62.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j1.pdf Graphi
+c file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_
+del_e_j1.pdf used on input line 1135.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e.pdf, id=6132, 46
+2.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e.pdf Graphic
+ file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smi
+n_del_e.pdf used on input line 1142.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j01.pdf, id=6133
+, 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j01.pdf Gra
+phic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j01.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smi
+n_del_e_j01.pdf used on input line 1149.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j026.pdf, id=613
+4, 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j026.pdf Gr
+aphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j026.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smi
+n_del_e_j026.pdf used on input line 1156.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j051.pdf, id=613
+5, 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j051.pdf Gr
+aphic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j051.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smi
+n_del_e_j051.pdf used on input line 1163.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j1.pdf, id=6136,
+ 462.52798pt x 346.89601pt>
+File: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j1.pdf Grap
+hic file (type pdf)
+
+<use ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j1.pdf>
+Package pdftex.def Info: ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smi
+n_del_e_j1.pdf used on input line 1170.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[76
+
+ <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e.pdf> <../plots/ne
+w/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j01.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_smin_del_e_j01.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>] [77 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j026.pdf> <
+../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j051.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8
+_smin_del_e_j051.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+>] [78 <../plots/new/ene/N8/tau_100/ran_in/annni_dh01_N8_smin_del_e_j1.pdf> <..
+/plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_smin_del_e.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>] [79 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j01.pdf> 
+<../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j026.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_smin_del_e_j026.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>] [80 <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j051.pdf>
+ <../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_N8_smin_del_e_j1.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/ene/N8/tau_100/dis/annni_hv01_dh01_
+N8_smin_del_e_j1.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delimiter' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 1178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1178.
+
+<../plots/xxz_v.pdf, id=6562, 1234.01027pt x 575.44986pt>
+File: ../plots/xxz_v.pdf Graphic file (type pdf)
+
+<use ../plots/xxz_v.pdf>
+Package pdftex.def Info: ../plots/xxz_v.pdf used on input line 1182.
+(pdftex.def)             Requested size: 310.4979pt x 144.79285pt.
+
+<../plots/simple_quench/xxz.pdf, id=6563, 578.16pt x 433.62pt>
+File: ../plots/simple_quench/xxz.pdf Graphic file (type pdf)
+
+<use ../plots/simple_quench/xxz.pdf>
+Package pdftex.def Info: ../plots/simple_quench/xxz.pdf used on input line 1188
+.
+(pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
+ [81
+
+ <../plots/xxz_v.pdf> <../plots/simple_quench/xxz.pdf
+
+pdfTeX warning: pdflatex (file ../plots/simple_quench/xxz.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>] <../plots/xxz_sample.pdf, id=6658, 578.16pt x 433.62pt>
+File: ../plots/xxz_sample.pdf Graphic file (type pdf)
+
+<use ../plots/xxz_sample.pdf>
+Package pdftex.def Info: ../plots/xxz_sample.pdf used on input line 1196.
+(pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
+ [82 <../plots/xxz_sample.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1205.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delta' on input line 1205.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1205.
+
+
+<../plots/new/xxz/600/xxz_hv1_dd01_N10_del_e_in_ene_seed60.pdf, id=6708, 462.52
+798pt x 390.25798pt>
+File: ../plots/new/xxz/600/xxz_hv1_dd01_N10_del_e_in_ene_seed60.pdf Graphic fil
+e (type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv1_dd01_N10_del_e_in_ene_seed60.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv1_dd01_N10_del_e_in_ene_see
+d60.pdf used on input line 1208.
+(pdftex.def)             Requested size: 310.4979pt x 261.99551pt.
+
+<../plots/new/xxz/600/xxz_hv10_dd01_N10_del_e_in_ene_seed40.pdf, id=6709, 537.6
+888pt x 395.3169pt>
+File: ../plots/new/xxz/600/xxz_hv10_dd01_N10_del_e_in_ene_seed40.pdf Graphic fi
+le (type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv10_dd01_N10_del_e_in_ene_seed40.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv10_dd01_N10_del_e_in_ene_se
+ed40.pdf used on input line 1215.
+(pdftex.def)             Requested size: 310.4979pt x 228.2947pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[83
+
+ <../plots/new/xxz/600/xxz_hv1_dd01_N10_del_e_in_ene_seed60.pdf>] [84 <../plots
+/new/xxz/600/xxz_hv10_dd01_N10_del_e_in_ene_seed40.pdf>]
+<../plots/new/xxz/600/xxz_hv1_dd01_N10_in_ene_samples_seed60.pdf, id=6781, 462.
+52798pt x 392.42609pt>
+File: ../plots/new/xxz/600/xxz_hv1_dd01_N10_in_ene_samples_seed60.pdf Graphic f
+ile (type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv1_dd01_N10_in_ene_samples_seed60.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv1_dd01_N10_in_ene_samples_s
+eed60.pdf used on input line 1224.
+(pdftex.def)             Requested size: 310.4979pt x 263.45105pt.
+
+<../plots/new/xxz/600/xxz_hv10_dd01_N10_in_ene_samples_seed40.pdf, id=6782, 462
+.52798pt x 402.54391pt>
+File: ../plots/new/xxz/600/xxz_hv10_dd01_N10_in_ene_samples_seed40.pdf Graphic 
+file (type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv10_dd01_N10_in_ene_samples_seed40.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv10_dd01_N10_in_ene_samples_
+seed40.pdf used on input line 1232.
+(pdftex.def)             Requested size: 310.4979pt x 270.24353pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[85
+
+ <../plots/new/xxz/600/xxz_hv1_dd01_N10_in_ene_samples_seed60.pdf>] [86 <../plo
+ts/new/xxz/600/xxz_hv10_dd01_N10_in_ene_samples_seed40.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delta' on input line 1239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1239.
+
+
+<../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_del_e_seed60.pdf, id=6863, 462
+.52798pt x 346.89601pt>
+File: ../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_del_e_seed60.pdf Graphic 
+file (type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_del_e_seed60.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_del_e_
+seed60.pdf used on input line 1242.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_del_e_seed40.pdf, id=6864, 46
+2.52798pt x 361.35pt>
+File: ../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_del_e_seed40.pdf Graphic
+ file (type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_del_e_seed40.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_del_e
+_seed40.pdf used on input line 1249.
+(pdftex.def)             Requested size: 310.4979pt x 242.58846pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[87
+
+ <../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_del_e_seed60.pdf>]
+[88 <../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_del_e_seed40.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1255.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1255.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1255.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delta' on input line 1255.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1255.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1255.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1255.
+
+
+<../plots/new/xxz/600/xxz_hv1_dd01_N10_del_s_s_t_seed60.pdf, id=6949, 462.52798
+pt x 346.89601pt>
+File: ../plots/new/xxz/600/xxz_hv1_dd01_N10_del_s_s_t_seed60.pdf Graphic file (
+type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv1_dd01_N10_del_s_s_t_seed60.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv1_dd01_N10_del_s_s_t_seed60
+.pdf used on input line 1258.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/xxz/600/xxz_hv10_dd01_N10_del_s_s_t_seed40.pdf, id=6950, 462.5279
+8pt x 346.89601pt>
+File: ../plots/new/xxz/600/xxz_hv10_dd01_N10_del_s_s_t_seed40.pdf Graphic file 
+(type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv10_dd01_N10_del_s_s_t_seed40.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv10_dd01_N10_del_s_s_t_seed4
+0.pdf used on input line 1265.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+ [89
+
+ <../plots/new/xxz/600/xxz_hv1_dd01_N10_del_s_s_t_seed60.pdf> <../plots/new/xxz
+/600/xxz_hv10_dd01_N10_del_s_s_t_seed40.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/xxz/600/xxz_hv10_dd01_N10_del_s_s_t
+_seed40.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 1272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1272.
+
+
+<../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_tau_seed60.pdf, id=7013, 462.5
+2798pt x 346.89601pt>
+File: ../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_tau_seed60.pdf Graphic fi
+le (type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_tau_seed60.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_tau_se
+ed60.pdf used on input line 1275.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+
+<../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_tau_seed40.pdf, id=7014, 462.
+52798pt x 346.89601pt>
+File: ../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_tau_seed40.pdf Graphic f
+ile (type pdf)
+
+<use ../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_tau_seed40.pdf>
+Package pdftex.def Info: ../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax_tau_s
+eed40.pdf used on input line 1282.
+(pdftex.def)             Requested size: 310.4979pt x 232.88492pt.
+ [90
+
+ <../plots/new/xxz/600/xxz_hv1_dd01_N10_smin_smax_tau_seed60.pdf> <../plots/new
+/xxz/600/xxz_hv10_dd01_N10_smin_smax_tau_seed40.pdf
+
+pdfTeX warning: pdflatex (file ../plots/new/xxz/600/xxz_hv10_dd01_N10_smin_smax
+_tau_seed40.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1288.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1288.
+ (./notes.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1288.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1288.
+
+Package rerunfilecheck Info: File `notes.out' has not changed.
+(rerunfilecheck)             Checksum: 400CAEB87D86D48FB624D1E0561EDD5B;2685.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1288.
+ ) 
+Here is how much of TeX's memory you used:
+ 20324 strings out of 493029
+ 401064 string characters out of 6136233
+ 490239 words of memory out of 5000000
+ 23067 multiletter control sequences out of 15000+600000
+ 11180 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,8n,94p,433b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on notes.pdf (91 pages, 3593765 bytes).
+PDF statistics:
+ 7186 PDF objects out of 7423 (max. 8388607)
+ 3549 compressed objects within 36 object streams
+ 287 named destinations out of 1000 (max. 500000)
+ 1095 words of extra memory for PDF output out of 10000 (max. 10000000)
+

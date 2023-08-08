@@ -1,0 +1,35 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}TFIM}{8}{section.1}
+\contentsline {subsection}{\numberline {1.1}$\delimiter "426830A m_z \delimiter "526930B $ vs h}{8}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}$\delimiter "426830A m_z \delimiter "526930B $ vs t}{8}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}von Neuman entropy vs t}{9}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Time evolution of $\delimiter "426830A m_z \delimiter "526930B $, S, $\delimiter "426830A s_c \delimiter "526930B $, and $l$ with quench at $\tau =100$}{9}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Single run}{9}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Averaged over several runs}{10}{subsubsection.1.4.2}
+\contentsline {section}{\numberline {2}ANNNI}{11}{section.2}
+\contentsline {subsection}{\numberline {2.1}Time evolution of $\delimiter "426830A m_z \delimiter "526930B $, S, $\delimiter "426830A s_c \delimiter "526930B $, and $l$ with quench at $\tau =100$}{11}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Single run}{11}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Averaged over several runs}{16}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}$S_{min}$ vs $J'$}{24}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}$\delimiter "426830A m_z \delimiter "526930B _{max}$ vs $J'$}{24}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}$S_{min}$ vs $\tau $}{25}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}$S_{min}$ vs $\tau $ vs $J'$}{35}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}$\tau $ at $(1-\frac {S_{min}}{S_{max}})/2$ vs $J'$}{41}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}$S_{min}$ vs $\tau $ vs $J'$ avereged over intial eigenstates}{44}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Standard deviation vs time}{47}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Mean and Standard deviation of mean around 2$\tau $ vs $t$}{49}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Standard deviation of mean at 2$\tau $ vs $\tau $}{59}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Energy resolved analysis}{63}{subsection.2.11}
+\contentsline {subsubsection}{\numberline {2.11.1}Initial energy vs $\delta $E}{63}{subsubsection.2.11.1}
+\contentsline {subsubsection}{\numberline {2.11.2}Initial energy vs samples}{68}{subsubsection.2.11.2}
+\contentsline {subsubsection}{\numberline {2.11.3}$S_{min}$ vs $\delta $E}{76}{subsubsection.2.11.3}
+\contentsline {section}{\numberline {3}XXZ}{81}{section.3}
+\contentsline {subsection}{\numberline {3.1}Time evolution of $\delimiter "426830A m_z \delimiter "526930B $, S, $\delimiter "426830A s_c \delimiter "526930B $, and $l$ with quench at $\tau =100$}{81}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Single run}{81}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Averaged over several runs}{82}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Energy resolved analysis}{83}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Initial energy vs $\delta $E}{83}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Initial energy vs samples}{85}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}$S_{min}/S_{max}$ vs $\delta $E}{87}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}$S$ $\delta S$ vs $t$}{89}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}$S_{min}/S_{max}$ vs $\tau $}{90}{subsection.3.4}
